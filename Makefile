@@ -3,7 +3,7 @@ pypi: test dist
 	
 dist: doc flake8
 	-rm dist/*
-	./setup.py sdist bdist_wheel
+	python setup.py sdist bdist_wheel
 
 flake8:
 	flake8 . --count --select=E901,E999,F821,F822,F823 --show-source --statistics
