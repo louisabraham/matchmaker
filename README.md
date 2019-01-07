@@ -1,3 +1,6 @@
+[![Build
+Status](https://travis-ci.org/louisabraham/matchmaker.svg?branch=master)](https://travis-ci.org/louisabraham/matchmaker)
+
 # matchmaker
 
 Iterate over the solutions to a linear sum assignment problem in

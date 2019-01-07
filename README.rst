@@ -1,3 +1,5 @@
+|Build Status|
+
 matchmaker
 ==========
 
@@ -45,3 +47,6 @@ References
    finding k-best perfect matchings.” Discrete applied mathematics 18,
    no. 2 (1987): 155-165.
    `[pdf] <https://core.ac.uk/download/pdf/82129717.pdf>`__
+
+.. |Build Status| image:: https://travis-ci.org/louisabraham/matchmaker.svg?branch=master
+   :target: https://travis-ci.org/louisabraham/matchmaker
