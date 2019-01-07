@@ -123,7 +123,7 @@ def _choose_in_difference(M, N):
 
 
 def linear_sum_assignment_iter(cost_matrix: np.ndarray):
-    """Iterates over the solutions to the linear sum assignment problem
+    """Iterate over the solutions to the linear sum assignment problem
     in increasing order of cost
 
     The method used for the first solution is the Hungarian algorithm,
@@ -141,7 +141,7 @@ def linear_sum_assignment_iter(cost_matrix: np.ndarray):
     problem where the cost matrix is rectangular. If it has more rows than
     columns, then not every row needs to be assigned to a column, and vice
     versa.
-    It also supports infinite weights to represent edges that must never be
+    It supports infinite weights to represent edges that must never be
     used.
 
     Parameters

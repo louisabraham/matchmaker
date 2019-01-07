@@ -6,6 +6,14 @@ Status](https://travis-ci.org/louisabraham/matchmaker.svg?branch=master)](https:
 Iterate over the solutions to a linear sum assignment problem in
 increasing order of cost.
 
+`linear_sum_assignment_iter` can also solve a generalization of the
+classic assignment problem where the cost matrix is rectangular. If it
+has more rows than columns, then not every row needs to be assigned to a
+column, and vice versa.
+
+`linear_sum_assignment_iter` supports infinite weights to represent
+edges that must never be used.
+
 # Usage
 
 ``` pycon
