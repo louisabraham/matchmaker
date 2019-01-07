@@ -240,4 +240,3 @@ def linear_sum_assignment_iter(cost_matrix: np.ndarray):
         Nk = _second_best_assignment(cost_matrix, N, Ik, Ok)
         if Nk is not None:
             heappush(Q, (cost(Nk), np.random.rand(), N, Nk, Ik, Ok))
-
