@@ -39,7 +39,7 @@ Installation
 
 ::
 
-   pip install matchmaker
+   pip install git+https://github.com/louisabraham/matchmaker
 
 Testing
 =======

@@ -35,7 +35,7 @@ array([0, 1, 2])
 
 # Installation
 
-    pip install matchmaker
+    pip install git+https://github.com/louisabraham/matchmaker
 
 # Testing
 
